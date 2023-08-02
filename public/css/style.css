@@ -30,7 +30,9 @@ html {
 body {
   line-height: 1.6;
   font-weight: 200;
-  font-family:  "Roboto", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   color: #777;
   padding: 3rem;
   min-height: 100vh;
@@ -176,7 +178,7 @@ body {
 .heading-tertirary {
   font-size: 2.95rem;
   text-align: right;
-  font-weight: ;
+  font-weight: 300;
   position: absolute;
   bottom: 1rem;
   right: 2rem;
@@ -608,7 +610,10 @@ body {
   overflow-x: scroll;
   -ms-scroll-snap-type: x mandatory;
   scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
+
 .reviews__card {
   width: 30rem;
   padding: 4rem;
