@@ -1,4 +1,5 @@
 /* eslint-disable */
+
 // export const displayMap = (locations) => {
 //   mapboxgl.accessToken =
 //     'pk.eyJ1Ijoiam9uYXNzY2htZWR0bWFubiIsImEiOiJjam54ZmM5N3gwNjAzM3dtZDNxYTVlMnd2In0.ytpI7V7w7cyT1Kq5rT9Z1A';
@@ -49,4 +50,11 @@
 //   });
 // };
 
-const locations = JSON.parse(document.getElementById('map').dataset.locations);
+// const locations = JSON.parse(document.getElementById('map').dataset.locations);
+mapboxgl.accessToken =
+  'pk.eyJ1Ijoic2V0aG9ubmUiLCJhIjoiY2xrdXV0c2hyMGQwMTNlcnoyM3ZkNmZzcyJ9.R9AkL2hRnU2770E0LYK3hA';
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/streets-v11',
+});
+// console.log(locations);
