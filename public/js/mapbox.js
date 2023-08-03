@@ -55,6 +55,6 @@ mapboxgl.accessToken =
   'pk.eyJ1Ijoic2V0aG9ubmUiLCJhIjoiY2xrdXV0c2hyMGQwMTNlcnoyM3ZkNmZzcyJ9.R9AkL2hRnU2770E0LYK3hA';
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/mapbox/streets-v11',
+  style: 'mapbox://styles/sethonne/clkv5wcfb001201pree5ehwq8',
 });
 // console.log(locations);
