@@ -22,7 +22,7 @@ Run this command to clone the repository into your desired directory
 
 ```bash
 # clones the repo into your local device
-git clone <url>
+git clone https://github.com/Samuel-Bonghanoy/Natoura.git
 # change to project directory
 cd Natoura
 # gets the newest version of the remote repo
@@ -47,5 +47,6 @@ To host the project on your local machine with nodemon, do:
 npm run start
 ```
 
-#Screenshots
+# Output
+<img src="screenshot.png"/>
 
